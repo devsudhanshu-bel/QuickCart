@@ -1,6 +1,8 @@
 import { Inngest } from "inngest";
 import connectDB from "./db";
 import User from "@/models/User";
+import 'styled-jsx/style';
+
 
 // Create a client to send and receive events
 export const inngest = new Inngest({ id: "nyxora-next" });
