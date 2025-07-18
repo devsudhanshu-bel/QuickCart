@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import { unique } from "next/dist/build/utils";
-import 'styled-jsx/style';
 
 
 const userSchema = new mongoose.Schema({
